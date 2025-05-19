@@ -1,0 +1,77 @@
+/*Box model
+
+comportamiento por defcto: 
+--ocupa todo el ancho de pantalla
+--altura depende del contenido
+
+
+-solo fncionan adecuandamente con display:Block;
+div tiene por defecto funciona si
+-- los elementos tienen contenido
+-*/
+
+/*Orden, color, tamaño, y estilo*/
+.box{
+  border: solid;
+  border-top-width: 10px;
+  border-top-style: groove;
+  
+}
+
+
+.box1{
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background:steelblue;
+    display: block;
+    border-top-color: yellowgreen;
+    border-right-color: blueviolet;
+    border-bottom-color: antiquewhite;
+    border-left-color: rosybrown;
+    height: 100px;
+}
+
+.box2{
+    display: block;
+    padding: 50px 20px 30px 10px; /*top, right, bottom, left.*/
+    background: rgb(144, 79, 146);
+    height: 200px;
+    border-top-color: rgb(205, 202, 50);
+    border-right-color: rgb(143, 83, 91);
+    border-bottom-color: rgb(19, 201, 43);
+    border-left-color: rgb(29, 164, 218);
+    
+}
+.box3{
+    display: block;
+    padding: 200px 100px; /*top, bottom*/
+    background: salmon;
+    height: 200px;
+    border-top-color: rgb(67, 147, 179);
+    border-right-color: rgb(143, 83, 91);
+    border-bottom-color: rgb(106, 85, 179);
+    border-left-color: rgb(148, 109, 132);
+}
+.box3{
+    display: block;
+    padding: 100px 50px; /*top, bottom*/
+    background: salmon;
+    height: 200px;
+    border-top-color: rgb(156, 55, 55);
+    border-right-color: rgb(21, 65, 160);
+    border-bottom-color: rgb(181, 207, 157);
+    border-left-color: rgb(214, 72, 53);
+}
+.box4{
+    display: block;
+    padding: 20px 40px 30px; /*top, right bottom*/
+    background: salmon;
+    height: 200px;
+    border-top-color: rgb(196, 209, 9);
+    border-right-color: rgb(143, 83, 91);
+    border-bottom-color: rgb(168, 157, 196);
+    border-left-color: rgb(103, 201, 108);
+}
